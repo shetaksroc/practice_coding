@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="TameOfThrones" />
+        <module name="thrones" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="TameOfThrones" target="1.5" />
+      <module name="thrones" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

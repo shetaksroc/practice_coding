@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TameOfThrones.iml" filepath="$PROJECT_DIR$/TameOfThrones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thrones.iml" filepath="$PROJECT_DIR$/thrones.iml" />
     </modules>
   </component>
 </project>
