@@ -14,12 +14,12 @@ public class Constants {
     public static final String ALLIES_OF_RULER="Allies of Ruler? ";
     public static final Integer MIN_ALLIES_FOR_EMPEROR=3;
 
-    public enum Animal {
+    public enum KINGDOM_ANIMAL_PAIR {
         LAND("panda"),WATER("octopus"),ICE("mammoth"),AIR("owl"),FIRE("dragon");
 
         private String name;
 
-        Animal(String animal) {
+        KINGDOM_ANIMAL_PAIR(String animal) {
             this.name = animal;
         }
 

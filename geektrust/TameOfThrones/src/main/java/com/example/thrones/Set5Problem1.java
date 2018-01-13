@@ -46,7 +46,7 @@ public class Set5Problem1 {
         System.out.println(WHO_IS_EMPEROR);
         System.out.println(emperor.getName());
         System.out.println(ALLIES_OF_RULER);
-        System.out.println(emperor.getAllies().size()<3?"None":emperor.getAllies());
+        System.out.println(emperor.getAllies());
 
     }
 

@@ -27,7 +27,7 @@ public class Messenger {
      * @param kingdomArg
      */
     private void validateKingdom(String kingdomArg){
-        if(StringUtils.isBlank(Constants.Animal.valueOf(kingdomArg.toUpperCase()).toString())){
+        if(StringUtils.isBlank(Constants.KINGDOM_ANIMAL_PAIR.valueOf(kingdomArg.toUpperCase()).toString())){
             throw new IllegalArgumentException("Invalid kingdom name provided");
         }
     }
@@ -47,7 +47,7 @@ public class Messenger {
      * @return
      */
     public boolean isMessageAccepted(){
-        HashMap<Character,Integer> animalCountMap=Constants.Animal.valueOf(kingdom).getName();
+        HashMap<Character,Integer> animalCountMap= Constants.KINGDOM_ANIMAL_PAIR.valueOf(kingdom).getName();
         HashMap<Character,Integer> msgCountMap= GeneralUtils.getCharCountMap(msg);
 
         if(!animalCountMap.isEmpty()){
