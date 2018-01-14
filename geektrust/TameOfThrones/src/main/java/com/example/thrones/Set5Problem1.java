@@ -36,6 +36,7 @@ public class Set5Problem1 {
                 Messenger messenger=new Messenger(msg[0].trim(),msg[1].trim());
                 if(messenger.isMessageAccepted()){
                     emperor.addAllies(msg[0].trim().toUpperCase());
+                    emperor.validateEmperorName();
                 }
             }catch (IllegalArgumentException e){
                 System.out.println(e.getMessage());

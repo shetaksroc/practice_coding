@@ -27,6 +27,12 @@ public class MessengerTests {
         Assert.assertFalse(messenger.isMessageAccepted());
     }
 
+    @Test
+    public void testMsgAcceptanceFire() throws Exception {
+        Messenger messenger=new Messenger("fire","\"Death is so terribly final, while life is full of possibilities.\"");
+        Assert.assertTrue(messenger.isMessageAccepted());
+    }
+
     @Test(expected = IllegalArgumentException.class)
     public void testEmptyMessengerObject(){
         Messenger messenger=new Messenger("","");

@@ -21,6 +21,11 @@ public class Emperor {
         this.name = null;
         this.allies = new HashSet<String>();
     }
+    public Emperor(String name) {
+        this.name = name;
+        this.allies = new HashSet<String>();
+    }
+
 
     public Set<String> getAllies() {
         return allies;
@@ -42,7 +47,6 @@ public class Emperor {
      */
     public void addAllies(String kingdom){
         this.getAllies().add(kingdom);
-        validateEmperorName();
     }
 
     /**
